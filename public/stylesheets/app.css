@@ -1,0 +1,90 @@
+#top {
+    margin-left: 1200px;
+}
+
+.card-img-top {
+    padding: 0;
+}
+
+.review {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+hr {
+    margin: 0;
+}
+
+.form-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.form-text {
+    background: rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 2px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-input {
+    border: none;
+    outline: none;
+    height: 50px;
+}
+
+.bottom {
+    max-height: 20px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.tag {
+    font-size: 30px;
+}
+
+.dull {
+    opacity: 0.5;
+}
+
+textarea {
+    height: 150px;
+}
+
+#postarea {
+    border: none;
+    width: 100%;
+}
+
+.danger {
+    display: inline;
+}
+
+.del {
+    border: none;
+    background: none;
+    outline: none;
+    color: black
+}
+
+.inlineForm {
+    width: 100%;
+    border: none;
+}

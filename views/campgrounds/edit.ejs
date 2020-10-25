@@ -1,0 +1,13 @@
+<%include ../partials/header%>
+    <div class="form-box">
+        <h1 class="form-text">Edit
+            <%= camp.name %>
+        </h1>
+        <form class="form" action="/campgrounds/<%= camp._id %>?_method=PUT" method="POST">
+            <input class="form-input" type="text" name="camp[name]" placeholder="Name" value="<%= camp.name %>">
+            <input class="form-input" type="text" name="camp[image]" placeholder="URL" value="<%= camp.image %>">
+            <textarea class=" form-input " name="camp[description]" placeholder="Add Description Here!" rows="5"><%=camp.description %></textarea>
+            <button class=" btn btn-success" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <%include ../partials/footer%>

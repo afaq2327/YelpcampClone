@@ -1,0 +1,12 @@
+<%include ../partials/header%>
+
+    <div class="form-box">
+        <h1 class="form-text">Add New Comment to
+            <%=camp.name %>
+        </h1>
+        <form class="form" action="/campgrounds/<%= camp._id %>/comments" method="POST">
+            <textarea class="form-input" name="comment[text]" placeholder="Comment Here!"></textarea>
+            <button type="submit " class="btn btn-success ">Submit</button>
+        </form>
+    </div>
+    <%include ../partials/footer%>

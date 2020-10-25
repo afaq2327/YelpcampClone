@@ -1,0 +1,12 @@
+<% include partials/header %>
+    <div class="form-box">
+        <h1 class="form-text">Create A New Account</h1>
+        <hr>
+        <form class="form" action="/register" method="POST">
+            <input class="form-input" type="text" name="username" placeholder="username">
+            <input class="form-input" type="password" name="password" placeholder="password">
+            <button class="btn btn-success">Sign Up</button>
+        </form>
+        <h5>Already Have An Account <a class="form-link" href="/login">Login</a></h5>
+    </div>
+    <% include partials/footer %>
